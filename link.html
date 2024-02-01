@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="Rocky Xiao" content="This is my http learning record. --2024.1.31"/>
+        <link rel="icon" href="icon/index.png"/>
+        <title>超链接</title>
+    </head>
+    <body>
+        <h1 id="top">超链接</h1>
+        <h2>块级链接：</h2>
+        <a href="https://www.baidu.com/" title="百度" target="_blank"><p>有时候我们可以把整个文本都做成链接，比如这一句话</p></a>
+        <p></p>
+        <h2>图片链接</h2>
+        <a href="index.html" title="滚回去"><img src="icon/index.png"/></a>
+        <p>在上面的案例中，我们使用了一个&lt;a&gt;&lt;/a&gt;标签来包裹一个&lt;img&gt;标签，从而实现了在图片上添加超链接的效果。</p>
+        <p>按<a href="index.html" title="主页">这里</a>返回</p>
+        <p></p>
+        <h2 id="search_text">文档片段</h2>
+        <p>我们可以使用一个id来定义一个文档片段，在未来需要使用的时候只需要在前面加上#号就能够调用，点击时可以直接点击到对应的位置</p>
+        <p>比如这样：<a href="link.html#top">示例</a></p>
+        <p></p>
+        <h2>发送邮件链接</h2>
+        <p>你可以很轻易地在邮箱前面加上mailto:来做一个发送邮件的超链接，比如<a href="mailto:junpei@acceed.com">发送邮件</a></p>
+        <p></p>
+        <h2>关于超链接的禁忌</h2>
+        <ul>
+            <li>使用模糊的措辞，如点击<strong>这里</strong>做某某事</li>
+            <li>点击链接后毫无征兆地下载大文件（大文件应提前标注大小）</li>
+            <li>重复URL作为链接文本的一部分（屏幕阅读器狂喜）</li>
+        </ul>
+    </body>
+</html>
